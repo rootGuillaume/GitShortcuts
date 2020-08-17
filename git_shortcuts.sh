@@ -5,13 +5,15 @@ function gita {
 
 # Git commit
 function gitci {
-  cd
+  git commit -m $1
 }
+
 # Git push origin name_of_branch
 function gitpo {
   git push origin $1
 }
 
+# Git push origin master
 function gitpom {
   git push origin master
 }

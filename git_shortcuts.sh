@@ -23,5 +23,5 @@ function gitco {
 
 # Git branch
 function gitbr {
-  cd
+  git branch $1
 }

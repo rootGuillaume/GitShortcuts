@@ -1,6 +1,6 @@
 # Git add
 function gita {
-  cd
+  git add .
 }
 
 # Git commit

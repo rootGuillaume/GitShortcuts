@@ -12,6 +12,10 @@ function gitpo {
 
 }
 
+function gitpom {
+  
+}
+
 # Git checkout name_of_branch
 function gitco {
 

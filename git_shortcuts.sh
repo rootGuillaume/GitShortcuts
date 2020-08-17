@@ -5,7 +5,7 @@ function gita {
 
 # Git commit
 function gitci {
-  git commit -m $1
+  git commit -m "$1"
 }
 
 # Git push origin name_of_branch

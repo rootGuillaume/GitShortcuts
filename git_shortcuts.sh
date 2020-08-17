@@ -9,7 +9,7 @@ function gitci {
 }
 # Git push origin name_of_branch
 function gitpo {
-  cd
+  git push origin $1
 }
 
 function gitpom {

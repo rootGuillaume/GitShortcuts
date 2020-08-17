@@ -18,7 +18,7 @@ function gitpom {
 
 # Git checkout name_of_branch
 function gitco {
-  cd
+  git checkout $1
 }
 
 # Git branch
